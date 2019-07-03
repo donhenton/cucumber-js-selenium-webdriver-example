@@ -8,7 +8,7 @@ export default class GoogleSearch extends Base {
   }
 
   load() {
-    this.browser.get("https://www.google.com.au");
+    this.browser.get("https://www.google.com");
   }
   
   waitUntilVisible() {
